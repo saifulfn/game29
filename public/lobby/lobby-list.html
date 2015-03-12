@@ -1,0 +1,15 @@
+<div>
+    <h1> Lobby List</h1>
+    <table border="2px solid blue" style="align:'center'">
+        <tr>
+            <th>Room Name</th>
+            <th>Room Position</th>
+            <th>Room Status</th>
+        </tr>
+        <tr ng-repeat="room in rooms">
+            <td><input type="button" ng-click='joinRoom(room._id)' value="{{room.name}}"/></td>
+            <td>{{room.position}}</td>
+            <td><input type="button" value="{{room.status}}"/></td>
+        </tr>
+    </table>
+</div>

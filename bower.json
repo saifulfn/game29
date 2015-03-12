@@ -1,0 +1,22 @@
+{
+  "name": "Twenty-nine",
+  "version": "1.0.0",
+  "authors": [
+    "saifbuet <saifbuet@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "easeljs": "~0.8.0",
+    "jquery": "~2.1.3",
+    "angular": "~1.3.14",
+    "preloadjs": "*",
+    "tweenjs": "*"
+  }
+}
