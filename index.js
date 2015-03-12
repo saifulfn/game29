@@ -110,6 +110,6 @@ app.get('/logout', function (req, res) {
 
 });
 require('./routes/lobbyRoute')(app);
-app.listen(80, function () {
-    console.log("App Started on PORT 80");
+app.listen(3000, function () {
+    console.log("App Started on PORT 3000");
 });
